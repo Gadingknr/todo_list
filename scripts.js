@@ -13,6 +13,18 @@ function onAddTaskClicked (event) {
     todoListcontainter.insertAdjacentElementHTML('afterbegin', taskHTML);
 }
 
+function onTodoListContainer.insertAdjacentElementHTML(event){
+    while(!targetElement.classList.contains("task")){
+        targetElement = targetElement.parentElement;
+    }
+    var checkbox = targetElement.querySelector(".checkbox");
+    if (checkbox.checked){
+        targetElement.classList.remove("completed")
+    } else {
+        targetElement.classList.remove("completed")
+    }
+}
 
 //step 3 link the event handler
-addTaskButton.addEventListener('click', onAddTaskClicked)
+addTaskButton.addEventListener('click', onAddTaskClicked);
+todoListcontainter,addEventListener('click', onAddTaskClicked)
