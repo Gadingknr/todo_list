@@ -1,7 +1,8 @@
 /*
-Description: Minimal styling for ToDo list.
-Author: Iama Goodstudent
-Email: iama.goodstudent@student.curtin.edu
+Description: Minimal styling for in-class exercise
+Author: PUT YOU NAME HERE
+Email: name@student.curtin.edu
+Tags: Todo
 */
 
 body {
@@ -16,5 +17,4 @@ body {
 }
 
 .task.completed {
-  text-decoration: line-through;
-}
+  text-d
