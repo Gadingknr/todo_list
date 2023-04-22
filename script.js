@@ -5,8 +5,7 @@ var todoListContainer = document.getElementById("todo-list");
 var templateContainer = document.getElementById("list-item-template");
 var template = templateContainer.innerHTML
     
-    /* Step 2. Lets write the function to handle the 'click' event
-    ---------------------------------------------------------------*/
+    // Step 2. Lets write the function to handle the 'click' event
 function onAddTaskClicked(event) {
     var taskName = newTaskInput.value;
     newTaskInput.value = "";
@@ -27,7 +26,8 @@ function onTodoListContainerClicked(event){
    } else {
       targetElement.classList.remove("completed")
    }
-    
+}
+
 /* Step 3 make the event trigger our functions*/
 addTaskButton.addEventListener('click', onAddTaskClicked);
 todoListContainer.addEventListener('click', onTodolistClicked);
