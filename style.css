@@ -17,4 +17,5 @@ body {
 }
 
 .task.completed {
-  text-d
+  text-decoration: line-through;
+}
