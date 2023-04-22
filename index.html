@@ -21,14 +21,19 @@
     </button>
   </form>
   <ul id="todo-list">
-    <li class="task">
-      <label>
-        <input type="checkbox">
-        is an item
-      </label> </li>
   </ul>
 
-    <script src="js/script.js"></script>
+  <script type="text/template" id="list-item-template">
+    <li>
+      <label>
+        <input type="checkbox">
+        <!-- Task_name-->
+        label
+      </label>
+    </li>
+  </script>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
