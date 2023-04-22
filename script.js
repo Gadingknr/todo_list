@@ -22,12 +22,11 @@ function onTodoListContainerClicked(event){
     } 
        
     var checkbox = targetElement.querySelector(".checkbox");
-    if (checkbox.checked){
-        targetElement.classList.add("completed")
-    } else {
-        targetElement.classList.remove("completed")
-    }
-}
+   if (checkbox.checked){
+      targetElement.classList.add("completed")
+   } else {
+      targetElement.classList.remove("completed")
+   }
     
 /* Step 3 make the event trigger our functions*/
 addTaskButton.addEventListener('click', onAddTaskClicked);
