@@ -6,32 +6,33 @@
     <title>My Todo List</title>
     <meta name="author" content="PUT YOUR NAME HERE">
     <meta name="description" content="Use ToDo list app to explore and interact with the DOM">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <h1>My Todo list</h1>
+    <h1>My Todo List</h1>
     <form>
-        <label>
-            Task Name:
-            <input id"task-input" type=""text" placeholder="Do assignment">
-        </label>
-        <button type="button" id="add-task">
-            Add Task
-          </button>
-        </form>
+      <label>
+        Task Name:
+        <input id="task-input" type="text" placeholder="Do assignment">
+      </label>
+      <button type="button" id="add-task">
+        Add Task
+      </button>
+    </form>
 
-        <ul id="todo-list">
-          
-        </ul>
+    <ul id="todo-list">   
+
+    </ul>
 
     <script type="text/template" id="list-item-template">
       <li class="task">
         <label>
           <input class="task" type="checkbox">
-          <!--TASK_NAME-->
-        </li>
-      </script>
+          <!-- TASK_NAME -->
+        </label>
+      </li>
+    </script>
 
     <script src="js/script.js"></script>
 </body>
